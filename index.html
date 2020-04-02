@@ -1,0 +1,43 @@
+<!DOCTYPE html>         
+<html>
+    <head>
+        <title>
+           Colour game
+        </title>
+        <link rel="stylesheet" href="style.css">  
+         <script src= 
+"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
+    </script>      
+    </head>
+    <body>
+        <h1> The Great <br> <span id="colorDisplay">RGB</span><br> Color game</h1>
+        <div  id="strip">
+            <button  id="reset"> New color</button>
+            <span   id="message"></span>
+            <button class="selected nice" id="easyBtn">Easy</button>
+            <button class="nice" id = "mediumBtn"> medium</button>
+            <button onclick="myFuction()" class="nice" id="hardBtn" >Hard</button> 
+        </div >  
+        <h1><span id="scoreDisplay">0</span></h1>  
+
+        <div id="container">
+        <div class="square" id="click" ></div>
+        <div class="square" id="click"></div>
+        <div class="square" id="click" ></div>
+        <div class="square" id="click" ></div>
+        <div class="square" id="click" ></div>
+        <div class="square" id="click" ></div>
+        <div class="square" id="click" ></div>
+        <div class="square" id="click" ></div>
+        <div class="square" id="click" ></div>
+        
+
+    </div>
+    
+        
+        <script src="script.js"></script>
+      
+       
+    </body>
+   
+</html> 
